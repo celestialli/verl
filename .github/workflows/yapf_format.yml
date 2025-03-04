@@ -24,7 +24,7 @@ permissions:
 
 jobs:
   yapf:
-    runs-on: [self-hosted, lsq-runner]
+    runs-on: [self-hosted, linux]
     strategy:
       matrix:
         python-version: ["3.12"]
