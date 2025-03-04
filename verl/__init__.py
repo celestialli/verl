@@ -27,7 +27,6 @@ import logging
 set_basic_config(level=logging.WARNING)
 
 print("111")
-print("222")
 
 from . import single_controller
 
