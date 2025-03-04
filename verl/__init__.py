@@ -14,7 +14,6 @@
 
 import os
 
-
 version_folder = os.path.dirname(os.path.join(os.path.abspath(__file__)))
 
 with open(os.path.join(version_folder, 'version/version')) as f:
@@ -26,6 +25,8 @@ from .utils.logging_utils import set_basic_config
 import logging
 
 set_basic_config(level=logging.WARNING)
+
+print("111")
 
 from . import single_controller
 
